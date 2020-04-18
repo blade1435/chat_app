@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./components/Contact";
-
+import ContactList from "./components/ContactList";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
          <Contact name="Amelia Carroll" 
       avatar="https://randomuser.me/api/portraits/women/11.jpg"
        online/>
+       <ContactList />
     </div>
   );
 }
